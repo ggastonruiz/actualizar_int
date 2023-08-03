@@ -1,0 +1,49 @@
+.listadoCartas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carta{
+    background-color: cadetblue;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 16px rgba(0,0,0,0.5);
+    
+    
+    
+}
+.carta img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.carta button{
+
+    padding: 5px;
+    margin-top: 10px;
+    background-color: tan;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.carta button:hover{
+    background-color: rgb(128, 112, 112);
+  
+}
+.cardInfo{
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    height: 100%;
+}
+    
